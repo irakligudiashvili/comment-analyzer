@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-width: 100vw;
+    background-color: f6f6f6;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    width: 70%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.recipe{
+    display: flex;
+    width: 70%;
+    background-color: #C19797;
+    margin: auto;
+    border-radius: 25px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.recipe img{
+    min-width: 120px;
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+}
+
+.recipe_text{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.recipe_text p{
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.recipe_scores{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    min-width: 150px;
+}
+
+.recipe_scores a{
+    text-align: center;
+    text-decoration: none;
+    padding: 2.5px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: black;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 15px 0;
+    margin: auto;
+}
+
+.comment_area{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment_area input{
+    width: 88%;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 2.5px;
+}
+
+.comment_area button{
+    padding: 0 5px;
+    width: 120px;
+}
+
+ul {
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 15px;
+    margin: 5px 0;
+    background-color: #ace3d7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}

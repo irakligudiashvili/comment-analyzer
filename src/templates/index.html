@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <h1>Restaurant</h1>
+
+    <h2>Menu</h2>
+
+    {% for item in items %}
+    <div class="recipe">
+        <img src="{{ url_for('static', filename=item.img) }}" />
+
+        <div class="recipe_text">
+            <h3>{{item.title}}</h3>
+            <p>
+                {% for ingredient in item.ingredients %}
+                {{ingredient}}
+                {% endfor %}
+            </p>
+        </div>
+
+        <div class="recipe_scores">
+            {% set ns = namespace(total=0) %}
+            {% for comment in item.comments %}
+                {% set ns.total = ns.total + comment.rating %}
+            {% endfor %}
+            {% set avg = (ns.total / item.comments|length) if item.comments else 0 %}
+            <p>Rating: {{ avg|round(1) }}/10</p>
+            <p>Satisfaction: {% if avg >= 7 %}😊{% elif avg >= 4 %}😐{% else %}😞{% endif %}</p>
+            <a href="/comments/{{item.id}}">Comments</a>
+        </div>
+    </div>
+
+    {% endfor %}
+</body>
+</html>
