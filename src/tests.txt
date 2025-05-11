@@ -1,0 +1,23 @@
+VADER
+
+"I thought it would be great, but it was extremely disappointing" - 5.8
+"The food was absolutely amazing, but the music was too loud" - 8.1
+"I wanted to love it, but yeah... no" - 8.8
+
+VADER - Modified
+
+"I thought it would be great, but it was extremely disappointing" - 3.5
+"The food was absolutely amazing, but the music was too loud" - 5.6
+"I wanted to love it, but yeah... no" - 4.5
+
+TextBlob
+
+"I thought it would be great, but it was extremely disappointing" - 5.5
+"The food was absolutely amazing, but the music was too loud" - 6.8
+"I wanted to love it, but yeah... no" - 7.5
+
+TextBlob - Modified
+
+"I thought it would be great, but it was extremely disappointing" - 3.8
+"The food was absolutely amazing, but the music was too loud" - 6.1
+"I wanted to love it, but yeah... no" - 5.6
