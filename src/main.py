@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 from menu import menu
-from sentiment import get_sentiment
+from sentiment_vader import get_sentiment_vader
+from sentiment_textblob import get_sentiment_blob
 
 app = Flask(__name__)
 
@@ -23,7 +24,7 @@ def comments(item_id):
     if request.method == 'POST':
         text = request.form.get('comment')
         if text:
-            rating = get_sentiment(text)
+            rating = get_sentiment_vader(text)
             item['comments'].append({"text": text, "rating": rating})
         return redirect(url_for('comments', item_id=item_id))
 
