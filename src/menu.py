@@ -1,4 +1,6 @@
-menu = [
+from storage import load_menu
+
+default_menu = [
     {
         "id": 1,
         "title": "Salad",
@@ -20,3 +22,5 @@ menu = [
         ]
     }
 ]
+
+menu = load_menu() or default_menu

@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Salad",
+    "img": "salad.jpeg",
+    "ingredients": [
+      "Tomato",
+      "Salad",
+      "Cucumber"
+    ],
+    "comments": [
+      {
+        "text": "I loved it!",
+        "rating": 8.0
+      },
+      {
+        "text": "Too salty for me",
+        "rating": 5.0
+      },
+      {
+        "text": "It looked fresh, but it had no flavor and felt soggy",
+        "rating": 4.1
+      },
+      {
+        "text": "Expected something crisp and refreshing, but it was limp and underdressed",
+        "rating": 5.0
+      },
+      {
+        "text": "Way too much vinegar - completely overpowered everything",
+        "rating": 5.0
+      },
+      {
+        "text": "Didn't taste fresh, and the tomatoes were mushy",
+        "rating": 6.6
+      },
+      {
+        "text": "Tasted gross",
+        "rating": 2.6
+      },
+      {
+        "text": "I hated it",
+        "rating": 1.8
+      },
+      {
+        "text": "Worst salad I've ever had",
+        "rating": 1.9
+      },
+      {
+        "text": "Terrible",
+        "rating": 2.6
+      },
+      {
+        "text": "Could've been better",
+        "rating": 7.2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Burger",
+    "img": "burger.jpg",
+    "ingredients": [
+      "Beef",
+      "Cheese",
+      "Buns"
+    ],
+    "comments": [
+      {
+        "text": "Amazing",
+        "rating": 7.9
+      },
+      {
+        "text": "It's okay",
+        "rating": 6.1
+      },
+      {
+        "text": "Pretty good",
+        "rating": 8.6
+      },
+      {
+        "text": "Juicy, well-seasoned, and the bun was perfectly toasted - loved it!",
+        "rating": 9.2
+      },
+      {
+        "text": "Absolutely delicious! The patty was cooked perfectly",
+        "rating": 9.2
+      },
+      {
+        "text": "Great balance of flavors, and the cheese melted just right",
+        "rating": 8.1
+      },
+      {
+        "text": "Easily one of the best burgers I've had in a while!",
+        "rating": 8.8
+      },
+      {
+        "text": "not bad",
+        "rating": 2.3
+      },
+      {
+        "text": "meh",
+        "rating": 4.6
+      },
+      {
+        "text": "Pretty good",
+        "rating": 8.6
+      },
+      {
+        "text": "not good, not bad",
+        "rating": 4.2
+      }
+    ]
+  }
+]
