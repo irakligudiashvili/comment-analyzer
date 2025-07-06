@@ -4,6 +4,6 @@ Web-based sentiment analysis tool made with Flask and NLTK library to analyze cu
 
 ---
 
-![](/src/static/screenshots/screenshot_1.png)
+![screenshot_1.png](src/static/screenshots/screenshot_1.png)
 
-![](/src/static/screenshots/screenshot_2.png)
+![Screenshot_2.png](src/static/screenshots/Screenshot_2.png)
